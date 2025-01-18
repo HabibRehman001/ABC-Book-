@@ -1,0 +1,590 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box1{
+    border:2px solid black;
+    background-color: white;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+}
+h1{
+   color:black;
+}
+.one{
+    height:30px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+
+}
+#fox1{
+    display: flex;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+
+}
+#fox2{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:240px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+      
+}
+#fox2 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox2:hover{
+    background-image: linear-gradient(to bottom right, #fa0019,#ff0051);
+}
+#fox3{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:150px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+#fox3 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox3:hover{
+    background-image: linear-gradient(to bottom right, #e5ff00,#88ff00);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#fox4{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:340px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox4 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox4:hover{
+    background-image: linear-gradient(to bottom right, #6e2163,#ff006a);
+}
+#fox5{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:300px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox5 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox5:hover{
+    background-image: linear-gradient(to bottom right, #3d2a9d,#ff006a);
+}
+#fox6{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:310px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox6 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox6:hover{
+    background-image: linear-gradient(to bottom right, #000000,#e258b8);
+}
+
+#fox7{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:370px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox7 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox7:hover{
+    background-image: linear-gradient(to bottom right, #6e2163,#ff006a);
+}
+#fox8{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:350px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox8 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox8:hover{
+    background-image: linear-gradient(to bottom right, #ff0000,#e258b8);
+}
+#fox9{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:300px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox9 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox9:hover{
+    background-image: linear-gradient(to bottom right, #6803ff,#e258b8);
+}
+#fox10{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:440px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox10 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox10:hover{
+    background-image: linear-gradient(to bottom right, #27668a,#e258b8);
+}
+#fox11{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:410px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+#fox11 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox11:hover{
+    background-image: linear-gradient(to left, #ff512f, #dd2476);
+}
+#fox12{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:355px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);    
+}
+#fox12 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox12:hover{
+    background-image: linear-gradient(to top, #00f260, #0575e6);
+}
+#fox13{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:360px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox13 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox13:hover{
+    background-image: linear-gradient(to bottom right, #000000, #434343);
+}
+#fox14{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:290px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox14 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox14:hover{
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+}
+#fox15{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:320px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox15 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox15:hover{
+    background-image: linear-gradient(to bottom, #ffa751, #ffe259);
+}#fox16{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:295px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox16 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox16:hover{
+    background-image: linear-gradient(to right, #e55d87, #5fc3e4);
+}#fox17{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:370px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox17 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox17:hover{
+    background-image: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+#fox18{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:250px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox18 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox18:hover{
+    background-image: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+}
+#fox19{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:320px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox19 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox19:hover{
+    background-image: linear-gradient(to bottom, #136a8a, #267871);
+}
+#fox20{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:350px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox20 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox20:hover{
+    background-image: linear-gradient(to bottom, #00416a, #e4e5e6);
+}
+#fox21{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:290px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox21 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox21:hover{
+    background-image: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+}
+#fox22{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:365px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox22 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox22:hover{
+    background-image: linear-gradient(to right, #1c92d2, #f2fcfe);
+}
+#fox23{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:360px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox23 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox23:hover{
+    background-image: linear-gradient(to top, #ff416c, #ff4b2b);
+}
+#fox24{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:280px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox24 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox24:hover{
+    background-image: linear-gradient(to bottom right, #9d50bb, #6e48aa);
+}
+#fox25{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:320px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox25 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox25:hover{
+    background-image: linear-gradient(to right, #11998e, #38ef7d);
+}
+#fox26{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:310px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox26 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox26:hover{
+    background-image: linear-gradient(to bottom, #00c6ff, #0072ff);
+}
+#fox27{
+    height:150px;
+    width:800px;
+    background-color: grey;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:380px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+#fox27 img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#fox27:hover{
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+button{
+display: inline-block;
+position: fixed;
+margin-left:680px;
+margin-top: 650px;
+}
+html{
+    scroll-behavior: smooth;
+}
