@@ -4,11 +4,16 @@
     box-sizing: border-box; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
 
 #box1{
     border:2px solid black;
     background-color: white;
     height: max-content;
+    width:1300px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -579,7 +584,7 @@ a{
 #fox27:hover{
     background-image: linear-gradient(to right, #ff7e5f, #feb47b);
 }
-button{
+top{
 display: inline-block;
 position: fixed;
 margin-left:680px;
@@ -587,4 +592,20 @@ margin-top: 650px;
 }
 html{
     scroll-behavior: smooth;
+}
+#tp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+}
+#tp{
+        background-color: #f1f1f1;
+        border: none;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#tp:hover {
+        background-color: #ccc;
 }
